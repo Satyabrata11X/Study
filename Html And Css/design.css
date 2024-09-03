@@ -1,0 +1,111 @@
+body {
+    background-color: #76874ccc;
+    color: rgb(6, 6, 6);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0;
+    color: white;
+}
+
+#hdr {
+    min-height: 50vh;
+    display: grid;
+    place-items: center;
+    /* padding-top: 3em;
+    padding-bottom: 1em;
+    padding-left: 1.5em;
+    padding-right: 1.5em; */
+    /* padding: 3em 1.5em 1em 1.5em; */
+    background: url(https://i.pinimg.com/564x/7f/00/36/7f0036d9239c07c72f1be6012dfdd1e8.jpg);
+    background-size: cover;
+    background-position-y: 30%;
+    background-repeat: no-repeat;
+    font-size: 2rem;
+    position: relative;
+}
+
+.content-wrapper{
+    z-index: 10;
+}
+
+#hdr::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    height: 70%;
+
+    width: 100%;
+    /* backdrop-filter: blur(4px); */
+    background: linear-gradient(to top, #6d784fcc 20%, transparent );
+}
+
+.destinations{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.dest {
+    background-color: rgba(36, 73, 49, 0.437);
+    width: 500px;
+    height: 500px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    /* width: 50%; */
+}
+
+.dest img{
+    border-radius: 20px;
+}
+
+.dest h3{
+    font-size: 3rem;
+    margin: 0;
+    transform: translate(0, 30px);
+}
+
+.dest p{
+    font-size: 1.2rem;
+}
+
+.card{
+
+}
+
+h2,
+h3,
+p {
+    /* margin: 0; */
+}
+
+img {
+    /* height: 256PX; */
+    
+    width: 100%;
+    /* height: auto; */
+
+}
+
+.dest {
+    /* width: 40%; */
+    /* display: inline-block; */
+}
+
+.btn {
+    text-decoration: none;
+    color: white;
+    padding: 1em 2em;
+    border: 1px solid rgb(178, 218, 100);
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    transition: all ease-in-out 0.5s;
+}
+
+.btn:hover {
+    background-color: rgba(15, 38, 25, 0.844);
+}
