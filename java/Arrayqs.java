@@ -17,6 +17,8 @@ public class Arrayqs {
         if(numbers[i]==x){
             System.out.println("x found at index:"+i);
         }
+        SC.close();
+
        }
        
     }

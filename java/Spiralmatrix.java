@@ -41,5 +41,7 @@ public class Spiralmatrix {
             colStart++;
             System.out.println();
         }
+
+        SC.close();
     }
 }
